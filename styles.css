@@ -1,0 +1,10 @@
+/*Contenido */
+footer {   /* Seccion que prorporciona informacion adicional en la parte inferior de la pagina*/
+    text-align: center;
+    background-color: #010a07;
+    color: rgba(249, 247, 247, 0.997);
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
