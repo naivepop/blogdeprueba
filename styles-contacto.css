@@ -1,31 +1,86 @@
+html {
+    background-color: #fdfdff;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #00000055, #000000 );
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    height: 100vh;
-    background-image: url('/images/castilloNoche.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
-#tamano {
-    font-size: 40px;
-}
-
-.cabecera {
-    color: white;
+    font-family: Arial, sans-serif; 
     text-align: center;
-    justify-content: center;
 }
 
-.cuerpo {
-    color: white;
-    text-align: left;
-    justify-content: center;
+menu {
+    margin-top: -70px;
+    margin-left: -8px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
 }
+
+header {
+    margin-bottom: -150px;
+    background-image: url('https://live.staticflickr.com/65535/51121352493_3e9fe6cb76_h.jpg');
+    color: #fff;
+    padding: 10px;
+}
+
+.titulo {
+    text-shadow: 7px 7px 7px whitesmoke;
+    color: #333;
+    font-size: 3em;
+    margin: 70px;
+}
+
+.contenido {
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 20px;
+    width: 830px;
+    max-width: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenedor con Flexbox */
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Información de contacto (lado izquierdo) */
+.info-contacto {
+    flex: 1; /* Ocupa la mitad del contenedor */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Imagen (lado derecho) */
+.imagen-contacto img {
+    max-width: 100%; /* Ajustar la imagen al contenedor */
+    height: auto;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1; /* También ocupa la mitad */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+}
+
+#sub-titulo{
+    font-size: 18px;
+}
+
+.image1{
+    width: 200px;
+}
+
+
