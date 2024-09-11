@@ -21,6 +21,12 @@ body {
     margin-bottom: 100px;
 }
 
+.containertitulo {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 nav {
     background-color: rgb(34, 33, 33);
     color: var(--light-text);
