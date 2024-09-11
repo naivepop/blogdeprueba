@@ -29,12 +29,6 @@ nav {
     top: 0;
 }
 
-.containermenu {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-}
-
 button {
     background-color: black;
     color: white;
@@ -48,7 +42,7 @@ button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
- }
+}
 
 header {
     background-image: url('https://live.staticflickr.com/65535/51121352493_3e9fe6cb76_h.jpg');
@@ -106,15 +100,50 @@ main {
 }
 
 footer {
-    background-color: var(--secondary-bg);
-    color: var(--light-text);
+    text-align: center;
+    background-color: #ffffff;
+    font-size: medium;
+    color: #181616;
     padding: 10px 0;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /*modifica el tamaño del pie de pagina*/  
+ 
+}
+ 
+.h1footer{
+    font-size: medium;
+    text-align: center;
+ 
+}
+ul{           /* list.style controla apariencia de las viñetas o numeracion en listas,margin controla el espacio externo y padding controla espacio interno*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+li{                   /* el atributo display define el tipo de caja que el elemento es y como se posiciona  inline: el elemento ocupa el ancho disponible sin comenzar nueva linea*/
+    text-align: center;
+    display: inline;  
+   
+}
+ 
+.Copyright{                    /*  text-alig alinea el texto horizontalmente mientras el top y bottom controlan la ubicacion vertical de un elemento*/
+    text-align: unset;
+    bottom: 0%;
+    top: 1px  
+   
+}
+.email{       /* Conjunto de propiedades*/
+    font-weight: bold;       /*controla el grosor del texto*/
+    color: rgb(10, 10, 25);
+    font-size: 16px;
+    position: absolute;
+    top: 20px; /* left y top controlan la ubicacion del elemento en relacion con el contenedor*/
+    left: 20px;
 }
 
-footer .container {
-    text-align: center;
-}
 
 @media (max-width: 768px) {
     .architecture-style {
@@ -131,12 +160,12 @@ footer .container {
     }
 }
 /*Contenido */
-footer {   /* Seccion que prorporciona informacion adicional en la parte inferior de la pagina*/
+/* footer {   /* Seccion que prorporciona informacion adicional en la parte inferior de la pagina
     text-align: center;
     background-color: #010a07;
     color: rgba(249, 247, 247, 0.997);
     padding: 20px 0;
     position: fixed;
     bottom: 0;
-    width: 100%;
-}
+    width: 100%; 
+}*/

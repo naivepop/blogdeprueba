@@ -7,9 +7,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #e5e5f7;
+
     /* Centra todo el texto */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 5px;
+}
+
+nav {
+    background-color: var(--secondary-bg);
+    color: var(--light-text);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 h1,
