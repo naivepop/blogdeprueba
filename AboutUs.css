@@ -8,8 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e5e5f7;
-
-    /* Centra todo el texto */
+    text-align: center;
 }
 
 .container {
@@ -18,8 +17,12 @@ body {
     padding: 0 20px 5px;
 }
 
+.containermenu {
+    text-align: left;
+}
+
 nav {
-    background-color: var(--secondary-bg);
+    background-color: rgb(34, 33, 33);
     color: var(--light-text);
     padding: 20px;
     position: fixed;

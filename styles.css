@@ -18,10 +18,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px 5px;
+    margin-bottom: 100px;
 }
 
 nav {
-    background-color: var(--secondary-bg);
+    background-color: rgb(34, 33, 33);
     color: var(--light-text);
     padding: 20px;
     position: fixed;
@@ -101,9 +102,9 @@ main {
 
 footer {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #1f1e1e;
     font-size: medium;
-    color: #181616;
+    color: #f8f4f4;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
@@ -137,7 +138,7 @@ li{                   /* el atributo display define el tipo de caja que el eleme
 }
 .email{       /* Conjunto de propiedades*/
     font-weight: bold;       /*controla el grosor del texto*/
-    color: rgb(10, 10, 25);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     position: absolute;
     top: 20px; /* left y top controlan la ubicacion del elemento en relacion con el contenedor*/
