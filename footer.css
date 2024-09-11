@@ -1,0 +1,47 @@
+
+footer{
+    
+    text-align: center;
+    background-color: #e5e5f7;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 8px ), repeating-linear-gradient( #1a070735, #2a292944 );
+    font-size: medium;
+    color: #181616;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /*modifica el tamaño del pie de pagina*/   
+  
+}
+
+h1{
+    font-size: medium;
+    text-align: center;
+  
+}
+ul{           /* list.style controla apariencia de las viñetas o numeracion en listas,margin controla el espacio externo y padding controla espacio interno*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+li{                   /* el atributo display define el tipo de caja que el elemento es y como se posiciona  inline: el elemento ocupa el ancho disponible sin comenzar nueva linea*/
+    text-align: center;
+    display: inline;   
+    
+}
+
+.Copyright{                    /*  text-alig alinea el texto horizontalmente mientras el top y bottom controlan la ubicacion vertical de un elemento*/
+    text-align: unset;
+    bottom: 0%;
+    top: 1px   
+    
+}
+.email{       /* Conjunto de propiedades*/
+    font-weight: bold;       /*controla el grosor del texto*/
+    color: rgb(10, 10, 25);
+    font-size: 16px;
+    position: absolute;
+    top: 20px; /* left y top controlan la ubicacion del elemento en relacion con el contenedor*/
+    left: 20px;
+}
