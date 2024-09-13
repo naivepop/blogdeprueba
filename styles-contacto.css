@@ -1,11 +1,14 @@
 html {
-    background-color: #fdfdff;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #00000055, #000000 );
+    /* background-color: #fdfdff; 
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #00000055, #000000 ); */
+    
 }
 
 body {
     font-family: Arial, sans-serif; 
     text-align: center;
+    background-color: var(--primary-bg);
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px), repeating-linear-gradient(#00000055, #000000);
 }
 
 menu {
@@ -93,14 +96,51 @@ header {
     flex: 1; /* También ocupa la mitad */
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 5px 0;
+footer {
+    text-align: center;
+    background-color: #1f1e1e;
+    font-size: medium;
+    color: #f8f4f4;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-left: -8px;
+    height: 110px; /*modifica el tamaño del pie de pagina*/  
+ 
+}
+
+.h1footer{
+    font-size: medium;
+    text-align: center;
+ 
+}
+
+ul{           /* list.style controla apariencia de las viñetas o numeracion en listas,margin controla el espacio externo y padding controla espacio interno*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+li{                   /* el atributo display define el tipo de caja que el elemento es y como se posiciona  inline: el elemento ocupa el ancho disponible sin comenzar nueva linea*/
+    text-align: center;
+    display: inline;  
+   
+}
+
+.Copyright{                    /*  text-alig alinea el texto horizontalmente mientras el top y bottom controlan la ubicacion vertical de un elemento*/
+    text-align: unset;
+    bottom: 0%;
+    top: 1px  
+   
+}
+
+.email{       /* Conjunto de propiedades*/
+    font-weight: bold;       /*controla el grosor del texto*/
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: absolute;
+    top: 20px; /* left y top controlan la ubicacion del elemento en relacion con el contenedor*/
+    left: 20px;
 }
 
 #sub-titulo{
